@@ -1,0 +1,57 @@
+<div class="row">
+  <div class="col-12 col-md-7 col-xl-5 offset-md-7 light-bg" id="navigation"
+       style="position:fixed; top:0; right: 0; z-index: 10; display: none">
+    <div class="row">
+      <div class="col-12 text-right">
+        <img id="closeButton" src="assets/close.png" class="mt-4 mr-3 p-2" style="cursor: pointer">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/">Home</a></div>
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/oferta.html">Oferta</a></div>
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/onas.html">O firmie</a></div>
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/portfolio.html">Portfolio</a></div>
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/blog.html">Blog</a></div>
+      <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/razem.html">Kontakt</a></div>
+      <div class="col-3 offset-1 mt-3 mb-3">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-11 offset-1"><p class="nav-text font-weight-bold">Click Forografia Nieruchomości</p></div>
+      <div class="col-11 offset-1"><p class="nav-text">Magdalena Pilipczuk</p></div>
+      <div class="col-11 offset-1 mt-3"><p class="nav-text mb-0">ul. Biernata z Lublina 23</p></div>
+      <div class="col-11 offset-1"><p class="nav-text mb-0">20-465 Lublin</p></div>
+      <div class="col-11 offset-1"><p class="nav-text mb-0">+48 506-787-065</p></div>
+      <div class="col-11 offset-1"><p class="nav-text">kontakt@clickfotografia.pl</p></div>
+    </div>
+    <div class="row">
+      <div class="col-11 offset-1">
+        <img src="assets/facebook.png" class="mr-3 mt-md-3 mb-md-5 pb-md-5 pb-4">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row pb-4">
+  <div class="col-6 pl-4">
+    <img src="assets/CLICK_LOGO.png" class="img-fluid main-logo">
+  </div>
+  <div class="col-6 pl-4">
+    <img src="assets/nav.png" class="nav-button img-fluid" style="" id="navButton">
+  </div>
+</div>
+
+<script>
+  $('#navButton').click(() => {
+    $('#navigation').fadeIn();
+  });
+  $('#navButtonBig').click(() => {
+    $('#navigationBig').fadeIn();
+  });
+  $('#closeButton').click(() => {
+    $('#navigation').fadeOut();
+  })
+  $('#closeButtonBig').click(() => {
+    $('#navigationBig').fadeOut();
+  })
+</script>

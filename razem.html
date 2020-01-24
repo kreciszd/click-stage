@@ -6,11 +6,54 @@
   <title>Gulp-SASS-Bootstrap-Boilerplate</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- inject css -->
-  <link rel="stylesheet" href="css/style-3649c8f432.css"/>
+  <link rel="stylesheet" href="css/style-cb1d9cf31f.css"/>
 </head>
 <body>
 <div class="jumbotron light-bg mb-0 d-none d-xl-block" style="overflow: hidden">
-  <div data-include="nav"></div>
+  <div class="row pb-4">
+    <div class="col-6 pl-4">
+      <a href="index.html">
+        <img src="assets/CLICK_LOGO.png" class="img-fluid main-logo">
+      </a>
+    </div>
+    <div class="col-6 pl-4">
+      <img src="assets/nav.png" class="nav-button img-fluid" id="navButtonBig">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-7 col-xl-6 offset-md-7 light-bg" id="navigationBig"
+         style="position:fixed; top:0; right: 0; z-index: 10; display: none">
+      <div class="row">
+        <div class="col-12 text-right">
+          <img id="closeButtonBig" src="assets/close.png" class="mt-4 mr-3 p-2" style="cursor: pointer">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/">Home</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/oferta.html">Oferta</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/onas.html">O firmie</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/portfolio.html">Portfolio</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/blog.html">Blog</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/razem.html">Kontakt</a></div>
+        <div class="col-3 offset-1 mt-3 mb-3">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1"><p class="nav-text font-weight-bold">Click Forografia Nieruchomości</p></div>
+        <div class="col-11 offset-1"><p class="nav-text">Magdalena Pilipczuk</p></div>
+        <div class="col-11 offset-1 mt-3"><p class="nav-text mb-0">ul. Biernata z Lublina 23</p></div>
+        <div class="col-11 offset-1"><p class="nav-text mb-0">20-465 Lublin</p></div>
+        <div class="col-11 offset-1"><p class="nav-text mb-0">+48 506-787-065</p></div>
+        <div class="col-11 offset-1"><p class="nav-text">kontakt@clickfotografia.pl</p></div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1">
+          <img src="assets/facebook.png" class="mr-3 mt-md-3 mb-md-5 pb-md-5 pb-4">
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container mt-5 pt-2 position-relative">
     <div class="row">
       <div class="col-6" style="margin-top: 15%; margin-bottom: 16.3%; z-index: 2">
@@ -27,7 +70,48 @@
   </div>
 </div>
 <div class="jumbotron light-bg contact pb-5 mb-0 d-xl-none">
-  <div data-include="navMobile"></div>
+  <div class="row">
+    <div class="col-12 col-md-7 col-xl-5 offset-md-7 light-bg" id="navigation"
+         style="position:fixed; top:0; right: 0; z-index: 10; display: none">
+      <div class="row">
+        <div class="col-12 text-right">
+          <img id="closeButton" src="assets/close.png" class="mt-4 mr-3 p-2" style="cursor: pointer">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/">Home</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/oferta.html">Oferta</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/onas.html">O firmie</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/portfolio.html">Portfolio</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/blog.html">Blog</a></div>
+        <div class="col-11 offset-1 mt-3"><a class="nav-item" href="/razem.html">Kontakt</a></div>
+        <div class="col-3 offset-1 mt-3 mb-3">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1"><p class="nav-text font-weight-bold">Click Forografia Nieruchomości</p></div>
+        <div class="col-11 offset-1"><p class="nav-text">Magdalena Pilipczuk</p></div>
+        <div class="col-11 offset-1 mt-3"><p class="nav-text mb-0">ul. Biernata z Lublina 23</p></div>
+        <div class="col-11 offset-1"><p class="nav-text mb-0">20-465 Lublin</p></div>
+        <div class="col-11 offset-1"><p class="nav-text mb-0">+48 506-787-065</p></div>
+        <div class="col-11 offset-1"><p class="nav-text">kontakt@clickfotografia.pl</p></div>
+      </div>
+      <div class="row">
+        <div class="col-11 offset-1">
+          <img src="assets/facebook.png" class="mr-3 mt-md-3 mb-md-5 pb-md-5 pb-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pb-4">
+    <div class="col-6 pl-4">
+      <img src="assets/CLICK_LOGO.png" class="img-fluid main-logo">
+    </div>
+    <div class="col-6 pl-4">
+      <img src="assets/nav.png" class="nav-button img-fluid" style="" id="navButton">
+    </div>
+  </div>
   <div class="container mt-5 position-relative">
     <div class="row mt-5 mb-5">
       <div class="col-12 mt-5 mb-5 pb-5 pt-5 about-us-main">
@@ -69,9 +153,32 @@
     </div>
   </div>
 </div>
-<div data-include="footer"></div>
-
+<footer>
+  <div class="container-fluid pb-4">
+    <div class="row pb-lg-4 pt-lg-2"></div>
+    <div class="row pt-4 pb-4">
+      <div class="col-12 col-xl-2 col-lg-3 col-md-12 offset-xl-1 mt-3 mb-4">
+        <a href="index.html">
+          <img src="assets/CLICK_LOGO.png" class="footer-logo img-fluid">
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mt-lg-4 mt-xl-2 col-md-4 col-xl-3 offset-xl-1">
+        <p class="font-weight-bold mb-1">Napisz do nas</p>
+        <p class="orange-color">kontakt@clickfotogragia.pl</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mt-lg-4 mt-xl-2 col-md-4 col-xl-2">
+        <p class="font-weight-bold mb-1">Zadzwoń</p>
+        <p class="orange-color">+48 123456789</p>
+      </div>
+      <div class="col-12 col-lg-3 mt-lg-4 mt-xl-2 col-md-4 col-xl-3">
+        <p class="font-weight-bold mb-1">Znajdziesz nas na:</p>
+        <img src="assets/facebook.png" class="mr-3 mt-3">
+        <img src="assets/instagram.png" class="mt-3">
+      </div>
+    </div>
+  </div>
+</footer>
 <!-- inject js -->
-<script src="js/bundle-a330afccbb.js"></script>
+<script src="js/bundle-7e805d777a.js"></script>
 </body>
 </html>
